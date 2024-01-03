@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		591E9ABA2B258C9400E63B2C /* GuessSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591E9AB92B258C9400E63B2C /* GuessSongView.swift */; };
+		591E9AE22B25BD2500E63B2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591E9AE12B25BD2500E63B2C /* ContentView.swift */; };
+		591E9AE42B25BDF200E63B2C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591E9AE32B25BDF200E63B2C /* AppState.swift */; };
+		591E9AE62B25BE1400E63B2C /* EnterNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591E9AE52B25BE1400E63B2C /* EnterNameView.swift */; };
+		591E9AE82B25BE2B00E63B2C /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591E9AE72B25BE2B00E63B2C /* LeaderboardView.swift */; };
+		598E1EDA2B24B5AC00AA5AD6 /* guesssongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598E1ED92B24B5AC00AA5AD6 /* guesssongApp.swift */; };
+		598E1EDE2B24B5AE00AA5AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598E1EDD2B24B5AE00AA5AD6 /* Assets.xcassets */; };
+		598E1EE12B24B5AE00AA5AD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598E1EE02B24B5AE00AA5AD6 /* Preview Assets.xcassets */; };
+		59934F652B2B1D8700A92C38 /* lyricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59934F642B2B1D8700A92C38 /* lyricsView.swift */; };
+		59934F822B2B2B4E00A92C38 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 59934F812B2B2B4E00A92C38 /* SwiftUIPullToRefresh */; };
+		59934F842B2B3B6200A92C38 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59934F832B2B3B6200A92C38 /* ShareView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		591E9AB92B258C9400E63B2C /* GuessSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessSongView.swift; sourceTree = "<group>"; };
+		591E9AE12B25BD2500E63B2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		591E9AE32B25BDF200E63B2C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		591E9AE52B25BE1400E63B2C /* EnterNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameView.swift; sourceTree = "<group>"; };
+		591E9AE72B25BE2B00E63B2C /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		598E1ED62B24B5AC00AA5AD6 /* guesssong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guesssong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		598E1ED92B24B5AC00AA5AD6 /* guesssongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guesssongApp.swift; sourceTree = "<group>"; };
+		598E1EDD2B24B5AE00AA5AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		598E1EE02B24B5AE00AA5AD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59934F642B2B1D8700A92C38 /* lyricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lyricsView.swift; sourceTree = "<group>"; };
+		59934F832B2B3B6200A92C38 /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598E1ED32B24B5AC00AA5AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59934F822B2B2B4E00A92C38 /* SwiftUIPullToRefresh in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		598E1ECD2B24B5AC00AA5AD6 = {
+			isa = PBXGroup;
+			children = (
+				598E1ED82B24B5AC00AA5AD6 /* guesssong */,
+				598E1ED72B24B5AC00AA5AD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		598E1ED72B24B5AC00AA5AD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598E1ED62B24B5AC00AA5AD6 /* guesssong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598E1ED82B24B5AC00AA5AD6 /* guesssong */ = {
+			isa = PBXGroup;
+			children = (
+				598E1ED92B24B5AC00AA5AD6 /* guesssongApp.swift */,
+				591E9AB92B258C9400E63B2C /* GuessSongView.swift */,
+				591E9AE12B25BD2500E63B2C /* ContentView.swift */,
+				59934F832B2B3B6200A92C38 /* ShareView.swift */,
+				591E9AE32B25BDF200E63B2C /* AppState.swift */,
+				591E9AE52B25BE1400E63B2C /* EnterNameView.swift */,
+				59934F642B2B1D8700A92C38 /* lyricsView.swift */,
+				591E9AE72B25BE2B00E63B2C /* LeaderboardView.swift */,
+				598E1EDD2B24B5AE00AA5AD6 /* Assets.xcassets */,
+				598E1EDF2B24B5AE00AA5AD6 /* Preview Content */,
+			);
+			path = guesssong;
+			sourceTree = "<group>";
+		};
+		598E1EDF2B24B5AE00AA5AD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				598E1EE02B24B5AE00AA5AD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598E1ED52B24B5AC00AA5AD6 /* guesssong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598E1EE42B24B5AE00AA5AD6 /* Build configuration list for PBXNativeTarget "guesssong" */;
+			buildPhases = (
+				598E1ED22B24B5AC00AA5AD6 /* Sources */,
+				598E1ED32B24B5AC00AA5AD6 /* Frameworks */,
+				598E1ED42B24B5AC00AA5AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guesssong;
+			packageProductDependencies = (
+				59934F812B2B2B4E00A92C38 /* SwiftUIPullToRefresh */,
+			);
+			productName = guesssong;
+			productReference = 598E1ED62B24B5AC00AA5AD6 /* guesssong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598E1ECE2B24B5AC00AA5AD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					598E1ED52B24B5AC00AA5AD6 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 598E1ED12B24B5AC00AA5AD6 /* Build configuration list for PBXProject "guesssong" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 598E1ECD2B24B5AC00AA5AD6;
+			packageReferences = (
+				59934F802B2B2B4E00A92C38 /* XCRemoteSwiftPackageReference "SwiftUIPullToRefresh" */,
+			);
+			productRefGroup = 598E1ED72B24B5AC00AA5AD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598E1ED52B24B5AC00AA5AD6 /* guesssong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598E1ED42B24B5AC00AA5AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598E1EE12B24B5AE00AA5AD6 /* Preview Assets.xcassets in Resources */,
+				598E1EDE2B24B5AE00AA5AD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598E1ED22B24B5AC00AA5AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59934F842B2B3B6200A92C38 /* ShareView.swift in Sources */,
+				598E1EDA2B24B5AC00AA5AD6 /* guesssongApp.swift in Sources */,
+				591E9AE22B25BD2500E63B2C /* ContentView.swift in Sources */,
+				59934F652B2B1D8700A92C38 /* lyricsView.swift in Sources */,
+				591E9AE62B25BE1400E63B2C /* EnterNameView.swift in Sources */,
+				591E9ABA2B258C9400E63B2C /* GuessSongView.swift in Sources */,
+				591E9AE82B25BE2B00E63B2C /* LeaderboardView.swift in Sources */,
+				591E9AE42B25BDF200E63B2C /* AppState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		598E1EE22B24B5AE00AA5AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		598E1EE32B24B5AE00AA5AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		598E1EE52B24B5AE00AA5AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"guesssong/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yc.guesssong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		598E1EE62B24B5AE00AA5AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"guesssong/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yc.guesssong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598E1ED12B24B5AC00AA5AD6 /* Build configuration list for PBXProject "guesssong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598E1EE22B24B5AE00AA5AD6 /* Debug */,
+				598E1EE32B24B5AE00AA5AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598E1EE42B24B5AE00AA5AD6 /* Build configuration list for PBXNativeTarget "guesssong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598E1EE52B24B5AE00AA5AD6 /* Debug */,
+				598E1EE62B24B5AE00AA5AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		59934F802B2B2B4E00A92C38 /* XCRemoteSwiftPackageReference "SwiftUIPullToRefresh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/muhammedtanriverdi/SwiftUIPullToRefresh.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		59934F812B2B2B4E00A92C38 /* SwiftUIPullToRefresh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59934F802B2B2B4E00A92C38 /* XCRemoteSwiftPackageReference "SwiftUIPullToRefresh" */;
+			productName = SwiftUIPullToRefresh;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 598E1ECE2B24B5AC00AA5AD6 /* Project object */;
+}
